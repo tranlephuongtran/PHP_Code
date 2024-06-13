@@ -1,0 +1,122 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1270px;
+    height: auto;
+    border: 2px solid;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(161, 223, 161);
+    text-align: center;
+    line-height: 80px;
+    border-bottom: 2px solid;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(231, 231, 231);
+    border-bottom: 2px solid black;
+}
+
+nav ul li {
+    list-style-type: none;
+    float: left;
+    line-height: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left:10px ;
+}
+
+aside {
+    width: 20%;
+    float: left;
+    
+    height: auto;
+}
+
+aside ul li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+    width: 100%;
+
+}
+
+aside a {
+    text-decoration: none;
+    color: Blue;
+
+}
+
+section {
+    width: 80%;
+    min-height: 360px;
+    border-left: 2px solid black;
+    float: left;
+}
+
+footer {
+    clear: both;
+        width: 100%;
+        height: 68px;
+        border-top: 1px solid;
+        background-color: rgb(161, 223, 161);
+        text-align: center;
+        line-height: 68px;
+}
+
+/*--- trang san pham --*/
+
+.sanpham {
+    float: left;
+    min-height: 180px;
+    width: 190px;
+    border: 1px solid #900;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin: 10px 0px 10px 10px;
+    padding: 10px;
+}
+
+.sanpham .tensp {
+    float: left;
+    height: 30px;
+    font-weight: bolder;
+    color: #00F;
+    padding-top: 5px;
+    
+}
+
+.sanpham .tensp a {
+    color: initial;
+    text-align: center;
+    
+}
+
+.sanpham .gia {
+    float: left;
+    height: 20px;
+    font-weight: bolder;
+    color: #F00;
+    text-align: center;
+    padding-top: 5px;
+    font-style: italic;
+}
+
+.sanpham .hinh img{
+    float: left;
+    height: 110px;
+    
+    margin: 30px;
+}
